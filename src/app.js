@@ -1,12 +1,15 @@
 import React from 'react'
 
+import NativeBaseUI from 'connectors/NativeBaseUI'
+import RootStack from 'navigator/root'
 
-export default class app extends React.Component{
- render(){
-  return(
-    <div>
-      <h1>I'm the PLACEHOLDER component</h1>
-    </div>
-  );
- }
+
+export default class App extends React.PureComponent{
+  render(){
+    return(
+      <NativeBaseUI>
+        <RootStack/>
+      </NativeBaseUI>
+    )
+  }
 }

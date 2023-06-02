@@ -72,7 +72,7 @@ export default {
   "tabActiveBgColor":"rgba(219,188,46,1)",
   "toolbarBtnColor":"rgba(59,44,25,1)",
   "toolbarDefaultBg":"rgba(219,188,46,1)",
-  "toolbarHeight":64,
+  "toolbarHeight":80,
   "toolbarSearchIconSize":20,
   "toolbarInputColor":"#fff",
   "searchBarHeight":30,
